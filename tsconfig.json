@@ -6,12 +6,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noImplicitAny": true,
     "sourceMap": true,
     "declaration": true,
     "outDir": "dist"

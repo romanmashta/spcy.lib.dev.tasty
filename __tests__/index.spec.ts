@@ -1,9 +1,21 @@
-import { sayHi, sayBye } from '../src';
+import '../dist/index';
 
-test('It says Hi', () => {
-  expect(sayHi('Me')).toBe('Hi Me');
+test('Self test', () => {
+  const hello = {
+    hello: 'world',
+    world: {
+      hello: true
+    }
+  };
+  expect(hello).toMatchTastyShot('self test');
 });
 
-test('It says Bye', () => {
-  expect(sayBye('Me')).toBe('Bye Me');
+test('Self typed test', () => {
+  const hello = {
+    hello: 'world',
+    world: {
+      hello: true
+    }
+  };
+  expect(hello).toMatchTastyShot('self typed test', 'world');
 });

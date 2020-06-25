@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Self typed test 1`] = `
+{
+  "hello": "world",
+  "world": {
+    "hello": true
+  }
+}
+`;
